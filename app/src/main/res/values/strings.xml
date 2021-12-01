@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">App_Project2</string>
+    <string name="voiti">Войти</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="language_courses">ЯЗЫКОВЫЕ КУРСЫ</string>
+    <string name="music_courses">МУЗЫКАЛЬНЫЕ КУРСЫ</string>
 </resources>
