@@ -22,7 +22,8 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:text="@string/language_courses"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="409dp"
@@ -117,7 +118,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:text="@string/music_courses"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="409dp"
@@ -171,8 +173,8 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
         <ImageView

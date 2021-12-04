@@ -4,4 +4,27 @@
     <string name="register">Зарегистрироваться</string>
     <string name="language_courses">ЯЗЫКОВЫЕ КУРСЫ</string>
     <string name="music_courses">МУЗЫКАЛЬНЫЕ КУРСЫ</string>
+    <string name="search">ПОИСК</string>
+    <string name="vvedite_zapros">Введите запрос</string>
+    <string name="account">АККАУНТ</string>
+    <string name="name">Леона Асанова</string>
+    <string name="my_courses">МОИ КУРСЫ</string>
+    <string name="message">СООБЩЕНИЯ</string>
+    <string name="timur">ТИМУР</string>
+    <string name="anna_name">ANNA</string>
+    <string name="alex_name">ALEX</string>
+    <string name="russian">Р У С С К И Й</string>
+    <string name="language">ЯЗЫК</string>
+    <string name="schedule">Уведомлять об изменениях расписаний</string>
+    <string name="updates">Уведомлять об обновлениях</string>
+    <string name="delete_acc">УДАЛИТЬ АККАУНТ</string>
+    <string name="settings">НАСТРОЙКИ</string>
+    <string name="no_messages">Пока сообщений нет</string>
+    <string name="vvedite_sms">Введите сообщение</string>
+    <string name="repetitors">СПИСОК РЕПЕТИТОРОВ</string>
+    <string name="james">JAMES</string>
+    <string name="date1">ПН/СР/ПТ 15:00</string>
+    <string name="date2">ПН/СР/ПТ 8:00</string>
+    <string name="sam">SAM</string>
+    <string name="date3">ВТ/ЧТ/СБ 8:00</string>
 </resources>

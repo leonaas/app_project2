@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App_Project2">
         <activity
+            android:name=".register"
+            android:exported="true" />
+        <activity
+            android:name=".english"
+            android:exported="true" />
+        <activity
+            android:name=".message_alex"
+            android:exported="true" />
+        <activity
+            android:name=".message_anna"
+            android:exported="true" />
+        <activity
+            android:name=".message_timur"
+            android:exported="true" />
+        <activity
+            android:name=".settings"
+            android:exported="true" />
+        <activity
+            android:name=".message"
+            android:exported="true" />
+        <activity
+            android:name=".account"
+            android:exported="true" />
+        <activity
+            android:name=".search"
+            android:exported="true" />
+        <activity
             android:name=".home"
             android:exported="true" />
         <activity
