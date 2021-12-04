@@ -10,37 +10,43 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App_Project2">
         <activity
-            android:name=".register"
+            android:name=".MessageSamActivity"
             android:exported="true" />
         <activity
-            android:name=".english"
+            android:name=".MessageJamesActivity"
             android:exported="true" />
         <activity
-            android:name=".message_alex"
+            android:name=".RegisterActivity"
             android:exported="true" />
         <activity
-            android:name=".message_anna"
+            android:name=".EnglishActivity"
             android:exported="true" />
         <activity
-            android:name=".message_timur"
+            android:name=".MessageAlexActivity"
             android:exported="true" />
         <activity
-            android:name=".settings"
+            android:name=".MessageAnnaActivity"
             android:exported="true" />
         <activity
-            android:name=".message"
+            android:name=".MessageTimurActivity"
             android:exported="true" />
         <activity
-            android:name=".account"
+            android:name=".SettingsActivity"
             android:exported="true" />
         <activity
-            android:name=".search"
+            android:name=".MessageActivity"
             android:exported="true" />
         <activity
-            android:name=".home"
+            android:name=".AccountActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SearchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

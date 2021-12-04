@@ -4,15 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <LinearLayout
-        android:layout_width="343dp"
-        android:layout_height="496dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="117dp"
-        android:layout_marginEnd="34dp"
-        android:layout_marginBottom="118dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,14 +24,14 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="338dp"
-            android:layout_height="48dp"
+            android:layout_height="53dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/rectangle">
 
             <EditText
                 android:layout_width="325dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
+                android:text="@string/username"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -44,14 +40,14 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="338dp"
-            android:layout_height="48dp"
+            android:layout_height="53dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/rectangle">
 
             <EditText
                 android:layout_width="325dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
+                android:text="@string/password"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -61,10 +57,11 @@
         <Button
             android:id="@+id/voiti_button"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="53dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/button_voiti"
             android:text="@string/voiti"
+            android:textSize="18sp"
             android:textColor="@color/white" />
 
         <TextView

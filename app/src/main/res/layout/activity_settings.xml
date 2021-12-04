@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".settings">
+    tools:context=".SettingsActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -163,9 +163,9 @@
             android:layout_width="346dp"
             android:layout_height="57dp"
             android:layout_marginTop="20dp"
-            android:textSize="20sp"
             android:background="@drawable/rectangle1"
-            android:text="@string/delete_acc" />
+            android:text="@string/delete_acc"
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="wrap_content"

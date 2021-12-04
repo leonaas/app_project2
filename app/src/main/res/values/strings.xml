@@ -27,4 +27,8 @@
     <string name="date2">ПН/СР/ПТ 8:00</string>
     <string name="sam">SAM</string>
     <string name="date3">ВТ/ЧТ/СБ 8:00</string>
+    <string name="username">Имя пользователся</string>
+    <string name="password">Пароль</string>
+    <string name="email">Электронный адрес</string>
+    <string name="password2">Подтвердите пароль</string>
 </resources>
