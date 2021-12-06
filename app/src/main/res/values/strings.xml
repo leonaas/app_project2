@@ -31,4 +31,5 @@
     <string name="password">Пароль</string>
     <string name="email">Электронный адрес</string>
     <string name="password2">Подтвердите пароль</string>
+    <string name="save">СОХРАНИТЬ</string>
 </resources>

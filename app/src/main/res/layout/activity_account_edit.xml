@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountEditActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="70dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="36dp"
+                android:layout_height="39dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/back" />
+
+            <TextView
+                android:id="@+id/account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="115dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/account"
+                android:textColor="@color/black"
+                android:textSize="23sp" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/name"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="25dp">
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/avatar"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="110dp"
+                app:srcCompat="@drawable/edit_photo" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="248dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/button_voiti"
+            android:text="@string/save"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

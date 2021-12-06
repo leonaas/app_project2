@@ -65,5 +65,12 @@ class AccountActivity : AppCompatActivity() {
             startActivity(Intent(this, SettingsActivity::class.java))
             finish()
         }
+
+        val edit = findViewById<Button>(R.id.edit)
+
+        edit.setOnClickListener {
+            startActivity(Intent(this, AccountEditActivity ::class.java))
+            finish()
+        }
     }
 }
