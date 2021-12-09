@@ -4,7 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_account.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_account_edit.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_account_edit.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_english.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
@@ -14,7 +14,7 @@
         <entry key="app/src/main/res/layout/activity_message_anna.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_message_james.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_message_timur.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_messages_sam.xml" value="0.2105978260869565" />
+        <entry key="app/src/main/res/layout/activity_messages_sam.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_search.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_settings.xml" value="0.25" />
