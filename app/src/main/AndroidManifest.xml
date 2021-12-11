@@ -10,6 +10,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App_Project2">
         <activity
+            android:name=".start"
+            android:exported="true" />
+        <activity
+            android:name=".FleitaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SkripkaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PianoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GitaraActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ItalianActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChineseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".KyrgyzActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsLanguageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FrenchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RussianActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GermanActivity"
+            android:exported="true" />
+        <activity
             android:name=".AccountEditActivity"
             android:exported="true" />
         <activity

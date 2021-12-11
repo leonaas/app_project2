@@ -32,4 +32,7 @@
     <string name="email">Электронный адрес</string>
     <string name="password2">Подтвердите пароль</string>
     <string name="save">СОХРАНИТЬ</string>
+    <string name="kyrgyz">К Ы Р Г Ы З</string>
+    <string name="english">E N G L I S H</string>
+    <string name="choice_user">ВЫБЕРИТЕ ПОЛЬЗОВАТЕЛЯ</string>
 </resources>

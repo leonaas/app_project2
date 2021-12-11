@@ -5,8 +5,15 @@
       <map>
         <entry key="app/src/main/res/layout/activity_account.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_account_edit.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_chinese.xml" value="0.17074275362318841" />
         <entry key="app/src/main/res/layout/activity_english.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_fleita.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_french.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_german.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_gitara.xml" value="0.17074275362318841" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_italian.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_kyrgyz.xml" value="0.17074275362318841" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_message.xml" value="0.25" />
@@ -15,9 +22,14 @@
         <entry key="app/src/main/res/layout/activity_message_james.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_message_timur.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_messages_sam.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_piano.xml" value="0.17074275362318841" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_russian.xml" value="0.17074275362318841" />
         <entry key="app/src/main/res/layout/activity_search.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_settings_language.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_skripka.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_start.xml" value="0.25" />
       </map>
     </option>
   </component>
