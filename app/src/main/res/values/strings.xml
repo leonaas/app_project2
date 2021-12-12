@@ -35,4 +35,11 @@
     <string name="kyrgyz">К Ы Р Г Ы З</string>
     <string name="english">E N G L I S H</string>
     <string name="choice_user">ВЫБЕРИТЕ ПОЛЬЗОВАТЕЛЯ</string>
+    <string name="john">JOHN</string>
+    <string name="date4">ПН/СР/ПТ 10:00</string>
+    <string name="work_time">РАБОЧИЙ ГРАФИК</string>
+    <string name="john_name">John Becker</string>
+    <string name="leona_name">ЛЕОНА</string>
+    <string name="danil_name">ДАНИЛ</string>
+    <string name="alina_name">АЛИНА</string>
 </resources>

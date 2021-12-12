@@ -10,7 +10,103 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App_Project2">
         <activity
-            android:name=".start"
+            android:name=".SearchLanguageRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SearchRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MessageAlinaRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MessageDanilRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MessageUserRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MessageRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AccountEditRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AccountRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FleitaRepAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SkripkaRepAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PianoRepAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GitaraRepAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChineseRepaddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ItalianRepAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".KyrgyzRepAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FrenchRepAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RussianRepAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GermanRepAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EnglishRepAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GitaraRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FleitaRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PianoRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SkripkaRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChineseRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ItalianRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".KyrgyzRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FrenchRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RussianRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GermanRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EnglishRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StartActivity"
             android:exported="true" />
         <activity
             android:name=".FleitaActivity"

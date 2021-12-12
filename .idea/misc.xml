@@ -5,30 +5,62 @@
       <map>
         <entry key="app/src/main/res/layout/activity_account.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_account_edit.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_account_edit_rep.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_account_rep.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_chinese.xml" value="0.17074275362318841" />
-        <entry key="app/src/main/res/layout/activity_english.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_chinese_rep.xml" value="0.12364130434782608" />
+        <entry key="app/src/main/res/layout/activity_chinese_rep_add.xml" value="0.13451086956521738" />
+        <entry key="app/src/main/res/layout/activity_english.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_english_rep.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_english_rep_add.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_fleita.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_fleita_rep.xml" value="0.12364130434782608" />
+        <entry key="app/src/main/res/layout/activity_fleita_rep_add.xml" value="0.13451086956521738" />
         <entry key="app/src/main/res/layout/activity_french.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_french_rep.xml" value="0.12364130434782608" />
+        <entry key="app/src/main/res/layout/activity_french_rep_add.xml" value="0.13451086956521738" />
         <entry key="app/src/main/res/layout/activity_german.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_german_add_rep.xml" value="0.13451086956521738" />
+        <entry key="app/src/main/res/layout/activity_german_rep.xml" value="0.12364130434782608" />
         <entry key="app/src/main/res/layout/activity_gitara.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_gitara2.xml" value="0.12364130434782608" />
+        <entry key="app/src/main/res/layout/activity_gitara_rep_add.xml" value="0.13451086956521738" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_home_rep.xml" value="0.13043478260869565" />
         <entry key="app/src/main/res/layout/activity_italian.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_italian_rep.xml" value="0.12364130434782608" />
+        <entry key="app/src/main/res/layout/activity_italian_rep_add.xml" value="0.13451086956521738" />
         <entry key="app/src/main/res/layout/activity_kyrgyz.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_kyrgyz_rep.xml" value="0.12364130434782608" />
+        <entry key="app/src/main/res/layout/activity_kyrgyz_rep_add.xml" value="0.13451086956521738" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_message.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_message_alex.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_message_alina.xml" value="0.13043478260869565" />
         <entry key="app/src/main/res/layout/activity_message_anna.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_message_danil.xml" value="0.13043478260869565" />
         <entry key="app/src/main/res/layout/activity_message_james.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_message_timur.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_message_user.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_messages_rep.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_messages_sam.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_piano.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_piano_rep.xml" value="0.12364130434782608" />
+        <entry key="app/src/main/res/layout/activity_piano_rep_add.xml" value="0.13451086956521738" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_russian.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_russian_rep.xml" value="0.12364130434782608" />
+        <entry key="app/src/main/res/layout/activity_russian_rep_add.xml" value="0.13451086956521738" />
         <entry key="app/src/main/res/layout/activity_search.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_search_rep.xml" value="0.13043478260869565" />
         <entry key="app/src/main/res/layout/activity_settings.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_settings_language.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_settings_language_rep.xml" value="0.13043478260869565" />
+        <entry key="app/src/main/res/layout/activity_settings_rep.xml" value="0.13043478260869565" />
         <entry key="app/src/main/res/layout/activity_skripka.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_skripka_rep.xml" value="0.12364130434782608" />
+        <entry key="app/src/main/res/layout/activity_skripka_rep_add.xml" value="0.13451086956521738" />
         <entry key="app/src/main/res/layout/activity_start.xml" value="0.25" />
       </map>
     </option>
