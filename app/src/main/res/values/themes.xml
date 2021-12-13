@@ -13,4 +13,66 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="linear1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="logo">
+        <item name="android:id">@id/logo</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="srcCompat">@drawable/icon</item>
+    </style>
+    
+    <style name="choice">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:text">@string/choice_user</item>
+    </style>
+    
+    <style name="student">
+        <item name="android:layout_width">225dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/student</item>
+    </style>
+
+    <style name="repetitor">
+        <item name="android:layout_width">225dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/repetitor</item>
+    </style>
+
+    <style name="linear2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="account_text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginStart">150dp</item>
+        <item name="android:text">@string/account</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="edit_dotes">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:layout_marginStart">85dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/dotes</item>
+    </style>
+
 </resources>

@@ -14,14 +14,11 @@ import com.google.android.material.tabs.TabLayout
 import kg.test.app_project2.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
-
     private lateinit var binding: ActivityLoginBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
 
         binding.voitiButton.setOnClickListener {
             startActivity(Intent(this, HomeActivity::class.java))

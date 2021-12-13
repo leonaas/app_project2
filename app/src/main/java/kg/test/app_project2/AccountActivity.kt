@@ -4,72 +4,57 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import kg.test.app_project2.databinding.ActivityAccountBinding
+import kg.test.app_project2.databinding.ActivityLoginBinding
 
 class AccountActivity : AppCompatActivity() {
-
+    private lateinit var binding: ActivityAccountBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_account)
+        binding= ActivityAccountBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        val moi_english_button = findViewById<Button>(R.id.moi_english_button)
-
-        moi_english_button.setOnClickListener {
+            binding.moiEnglishButton.setOnClickListener {
             startActivity(Intent(this, MessageAnnaActivity::class.java))
             finish()
         }
 
-        val moi_kyrgyz_button = findViewById<Button>(R.id.moi_kyrgyz_button)
-
-        moi_kyrgyz_button.setOnClickListener {
+        binding.moiEnglishButton.setOnClickListener {
             startActivity(Intent(this, MessageTimurActivity::class.java))
             finish()
         }
 
-        val moi_gitara_button = findViewById<Button>(R.id.moi_gitara_button)
-
-        moi_gitara_button.setOnClickListener {
+        binding.moiGitaraButton.setOnClickListener {
             startActivity(Intent(this, MessageAlexActivity::class.java))
             finish()
         }
 
-        val add_button = findViewById<Button>(R.id.add_button)
-
-        add_button.setOnClickListener {
+        binding.addButton.setOnClickListener {
             startActivity(Intent(this, HomeActivity::class.java))
             finish()
         }
 
-        val search = findViewById<Button>(R.id.search)
-
-        search.setOnClickListener {
+        binding.search.setOnClickListener {
             startActivity(Intent(this, SearchActivity::class.java))
             finish()
         }
 
-        val home = findViewById<Button>(R.id.home)
-
-        home.setOnClickListener {
+        binding.home.setOnClickListener {
             startActivity(Intent(this, HomeActivity::class.java))
             finish()
         }
 
-        val message = findViewById<Button>(R.id.message)
-
-        message.setOnClickListener {
+        binding.message.setOnClickListener {
             startActivity(Intent(this, MessageActivity::class.java))
             finish()
         }
 
-        val settings = findViewById<Button>(R.id.settings)
-
-        settings.setOnClickListener {
+        binding.settings.setOnClickListener {
             startActivity(Intent(this, SettingsActivity::class.java))
             finish()
         }
 
-        val edit = findViewById<Button>(R.id.edit)
-
-        edit.setOnClickListener {
+        binding.edit.setOnClickListener {
             startActivity(Intent(this, AccountEditActivity ::class.java))
             finish()
         }

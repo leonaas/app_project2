@@ -40,5 +40,75 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, SettingsActivity::class.java))
             finish()
         }
+
+        val german = findViewById<Button>(R.id.german)
+
+        german.setOnClickListener {
+            startActivity(Intent(this, GermanActivity ::class.java))
+            finish()
+        }
+
+        val russian = findViewById<Button>(R.id.russian)
+
+        russian.setOnClickListener {
+            startActivity(Intent(this, RussianActivity ::class.java))
+            finish()
+        }
+
+        val french = findViewById<Button>(R.id.french)
+
+        french.setOnClickListener {
+            startActivity(Intent(this, FrenchActivity ::class.java))
+            finish()
+        }
+
+        val kyrgyz = findViewById<Button>(R.id.kyrgyz)
+
+        kyrgyz.setOnClickListener {
+            startActivity(Intent(this, KyrgyzActivity ::class.java))
+            finish()
+        }
+
+        val chinese = findViewById<Button>(R.id.chinese)
+
+        chinese.setOnClickListener {
+            startActivity(Intent(this, ChineseActivity ::class.java))
+            finish()
+        }
+
+        val italian = findViewById<Button>(R.id.italian)
+
+        italian.setOnClickListener {
+            startActivity(Intent(this, ItalianActivity ::class.java))
+            finish()
+        }
+
+        val gitara = findViewById<Button>(R.id.gitara)
+
+        gitara.setOnClickListener {
+            startActivity(Intent(this, GitaraActivity ::class.java))
+            finish()
+        }
+
+        val piano = findViewById<Button>(R.id.piano)
+
+        piano.setOnClickListener {
+            startActivity(Intent(this, PianoActivity ::class.java))
+            finish()
+        }
+
+        val skripka = findViewById<Button>(R.id.skripka)
+
+        skripka.setOnClickListener {
+            startActivity(Intent(this, SkripkaActivity ::class.java))
+            finish()
+        }
+
+        val fleita = findViewById<Button>(R.id.fleita)
+
+        fleita.setOnClickListener {
+            startActivity(Intent(this, FleitaActivity ::class.java))
+            finish()
+        }
     }
 }

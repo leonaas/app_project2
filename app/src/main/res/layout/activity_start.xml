@@ -7,43 +7,26 @@
     tools:context=".StartActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical"
+        style="@style/linear1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon" />
+            style="@style/logo"/>
 
         <TextView
             android:id="@+id/choice"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:textSize="20sp"
-            android:text="@string/choice_user" />
+            style="@style/choice"/>
 
         <Button
             android:id="@+id/student"
-            android:layout_width="225dp"
-            android:layout_height="58dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/student" />
+            style="@style/student" />
 
         <Button
             android:id="@+id/repetitor"
-            android:layout_width="225dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/repetitor" />
-
+            style="@style/repetitor" />
 
     </LinearLayout>
 
