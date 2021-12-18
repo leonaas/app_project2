@@ -7,93 +7,55 @@
     tools:context=".AccountEditRepActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical"
+        style="@style/linear1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="70dp"
-            android:orientation="horizontal">
+            style="@style/linear2"
+            android:layout_marginEnd="70dp">
 
             <Button
-                android:id="@+id/back"
-                android:layout_width="36dp"
-                android:layout_height="39dp"
-                android:layout_marginTop="15dp"
-                android:background="@drawable/back" />
+                style="@style/back"
+                android:id="@+id/back" />
 
             <TextView
                 android:id="@+id/account"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="115dp"
-                android:layout_marginTop="20dp"
-                android:text="@string/account"
-                android:textColor="@color/black"
-                android:textSize="23sp" />
+                style="@style/account_text"
+                android:layout_marginStart="115dp" />
 
         </LinearLayout>
 
-
         <EditText
             android:id="@+id/name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/john_name"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
-
+            style="@style/name_edittext"/>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="25dp"
-            android:orientation="horizontal">
+            style="@style/linear2"
+            android:layout_marginStart="25dp">
 
             <ImageView
                 android:id="@+id/avatar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                style="@style/avatar_imageview"
                 app:srcCompat="@drawable/john" />
 
             <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="wrap_content"
-                android:layout_height="60dp"
-                android:layout_marginTop="110dp"
-                app:srcCompat="@drawable/edit_photo" />
+                style="@style/edit_button"
+                android:id="@+id/imageView4" />
         </LinearLayout>
 
         <TextView
             android:id="@+id/work_time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/work_time"
-            android:textColor="@color/black"
-            android:textSize="15sp" />
+            style="@style/work_time_text"/>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/work_time_"
-            android:layout_width="343dp"
-            android:layout_height="52dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/rectangle">
+            style="@style/const_lay2">
 
             <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:text="@string/date4"
+                style="@style/worktime"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -103,13 +65,8 @@
 
         <Button
             android:id="@+id/save"
-            android:layout_width="248dp"
-            android:layout_height="52dp"
-            android:layout_marginTop="175dp"
-            android:layout_marginBottom="100dp"
-            android:background="@drawable/button_voiti"
-            android:text="@string/save"
-            android:textColor="@color/white" />
+            style="@style/save_button"
+            android:layout_marginTop="170dp"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

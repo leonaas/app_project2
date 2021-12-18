@@ -8,142 +8,91 @@
 
     <LinearLayout
         style="@style/linear1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
-            style="@style/linear2">
+        <LinearLayout style="@style/linear2">
 
             <TextView
                 android:id="@+id/account"
-                style="@style/account_text"/>
+                style="@style/account_text" />
 
             <Button
                 android:id="@+id/edit"
-                style="@style/edit_dotes"/>
+                style="@style/edit_dotes" />
         </LinearLayout>
 
         <TextView
             android:id="@+id/name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/name"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:layout_marginTop="20dp" />
+            style="@style/account_name" />
 
         <ImageView
             android:id="@+id/avatar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/avatar"
-            android:layout_marginTop="20dp" />
+            style="@style/avatar_imageview" />
 
         <TextView
             android:id="@+id/my_courses"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/my_courses"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:layout_marginTop="20dp" />
+            style="@style/my_courses_text" />
 
         <Button
             android:id="@+id/moi_english_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/moi_english"
-            android:layout_marginTop="20dp" />
+            style="@style/my_eng_button" />
 
         <Button
             android:id="@+id/moi_kyrgyz_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/moi_kyrgyz"
-            android:layout_marginTop="20dp"/>
+            style="@style/my_kg_button" />
 
         <Button
             android:id="@+id/moi_gitara_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/moi_gitara"
-            android:layout_marginTop="20dp" />
+            style="@style/my_gitara_button" />
 
         <Button
             android:id="@+id/add_button"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:background="@drawable/add"
-            android:layout_marginTop="20dp" />
+            style="@style/add_button" />
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:orientation="vertical">
+            android:id="@+id/linear_layout"
+            style="@style/linear_layout">
 
             <ImageView
                 android:id="@+id/line"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                app:srcCompat="@drawable/line" />
+                style="@style/line" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="409dp"
-                android:layout_height="52dp">
+                android:id="@+id/const_lay"
+                style="@style/const_lay">
 
                 <Button
                     android:id="@+id/profile"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="43dp"
-                    android:layout_marginBottom="7dp"
-                    android:background="@drawable/profile"
+                    style="@style/profile_button"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/search"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
                     android:id="@+id/message"
-                    android:layout_width="29dp"
-                    android:layout_height="28dp"
-                    android:layout_marginStart="41dp"
-                    android:layout_marginTop="5dp"
-                    android:background="@drawable/message"
+                    style="@style/message_button"
                     app:layout_constraintStart_toEndOf="@+id/profile"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
                     android:id="@+id/search"
-                    android:layout_width="31dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="30dp"
-                    android:layout_marginTop="8dp"
-                    android:background="@drawable/search"
+                    style="@style/search_button"
                     app:layout_constraintStart_toEndOf="@+id/home"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
                     android:id="@+id/home"
-                    android:layout_width="45dp"
-                    android:layout_height="51dp"
-                    android:layout_marginStart="13dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/home"
+                    style="@style/home_button"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
                     android:id="@+id/settings"
-                    android:layout_width="32dp"
-                    android:layout_height="33dp"
-                    android:layout_marginStart="42dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginEnd="28dp"
-                    android:background="@drawable/settings"
+                    style="@style/settings_button"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/message"
                     app:layout_constraintTop_toTopOf="parent" />

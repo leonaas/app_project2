@@ -3,7 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_account.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_account.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_account_edit.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_account_edit_rep.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_account_rep.xml" value="0.25" />
@@ -11,7 +11,7 @@
         <entry key="app/src/main/res/layout/activity_chinese_rep.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_chinese_rep_add.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_english.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_english_rep.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_english_rep.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_english_rep_add.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_fleita.xml" value="0.17074275362318841" />
         <entry key="app/src/main/res/layout/activity_fleita_rep.xml" value="0.12364130434782608" />
