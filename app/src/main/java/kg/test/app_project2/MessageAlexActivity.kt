@@ -5,50 +5,41 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import kg.test.app_project2.databinding.ActivityMessageAlexBinding
 
 class MessageAlexActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMessageAlexBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_message_alex)
+        binding= ActivityMessageAlexBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        val back = findViewById<Button>(R.id.back)
-
-        back.setOnClickListener {
+        binding.back.setOnClickListener {
             startActivity(Intent(this, MessageActivity::class.java))
             finish()
         }
 
-        val search = findViewById<Button>(R.id.search)
-
-        search.setOnClickListener {
+        binding.search.setOnClickListener {
             startActivity(Intent(this, SearchActivity::class.java))
             finish()
         }
 
-        val home = findViewById<Button>(R.id.home)
-
-        home.setOnClickListener {
+        binding.home.setOnClickListener {
             startActivity(Intent(this, HomeActivity::class.java))
             finish()
         }
 
-        val message = findViewById<Button>(R.id.message)
-
-        message.setOnClickListener {
+        binding.message.setOnClickListener {
             startActivity(Intent(this, MessageActivity::class.java))
             finish()
         }
 
-        val settings = findViewById<Button>(R.id.settings)
-
-        settings.setOnClickListener {
+        binding.settings.setOnClickListener {
             startActivity(Intent(this, SettingsActivity::class.java))
             finish()
         }
 
-        val profile = findViewById<Button>(R.id.profile)
-
-        profile.setOnClickListener {
+        binding.profile.setOnClickListener {
             startActivity(Intent(this, AccountActivity::class.java))
             finish()
         }

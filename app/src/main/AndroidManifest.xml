@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App_Project2">
         <activity
-            android:name=".SearchLanguageRepActivity"
+            android:name=".RegisterRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginRepActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsLanguageRepActivity"
             android:exported="true" />
         <activity
             android:name=".SettingsRepActivity"

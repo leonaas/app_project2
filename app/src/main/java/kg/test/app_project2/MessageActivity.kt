@@ -6,56 +6,46 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
+import kg.test.app_project2.databinding.ActivityMessageBinding
 
 class MessageActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMessageBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_message)
+        binding= ActivityMessageBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        val timur_user = findViewById<LinearLayout>(R.id.timur_user)
-
-        timur_user.setOnClickListener {
+        binding.timurUser.setOnClickListener {
             startActivity(Intent(this, MessageTimurActivity::class.java))
             finish()
         }
 
-        val anna_user = findViewById<LinearLayout>(R.id.anna_user)
-
-        anna_user.setOnClickListener {
+        binding.annaUser.setOnClickListener {
             startActivity(Intent(this, MessageAnnaActivity::class.java))
             finish()
         }
 
-        val alex_user = findViewById<LinearLayout>(R.id.alex_user)
-
-        alex_user.setOnClickListener {
+        binding.alexUser.setOnClickListener {
             startActivity(Intent(this, MessageAlexActivity::class.java))
             finish()
         }
 
-        val search = findViewById<Button>(R.id.search)
-        search.setOnClickListener {
+        binding.search.setOnClickListener {
             startActivity(Intent(this, SearchActivity::class.java))
             finish()
         }
 
-        val home = findViewById<Button>(R.id.home)
-
-        home.setOnClickListener {
+        binding.home.setOnClickListener {
             startActivity(Intent(this, HomeActivity::class.java))
             finish()
         }
 
-        val settings = findViewById<Button>(R.id.settings)
-
-        settings.setOnClickListener {
+        binding.settings.setOnClickListener {
             startActivity(Intent(this, SettingsActivity::class.java))
             finish()
         }
 
-        val profile = findViewById<Button>(R.id.profile)
-
-        profile.setOnClickListener {
+        binding.profile.setOnClickListener {
             startActivity(Intent(this, AccountActivity::class.java))
             finish()
         }

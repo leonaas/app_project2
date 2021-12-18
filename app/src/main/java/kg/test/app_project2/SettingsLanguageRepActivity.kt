@@ -3,18 +3,18 @@ package kg.test.app_project2
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kg.test.app_project2.databinding.ActivityAccountRepBinding
 import kg.test.app_project2.databinding.ActivitySettingsLanguageBinding
+import kg.test.app_project2.databinding.ActivitySettingsLanguageRepBinding
 
-class SettingsLanguageActivity : AppCompatActivity() {
-    private lateinit var binding: ActivitySettingsLanguageBinding
+class SettingsLanguageRepActivity : AppCompatActivity() {
+    private lateinit var binding: ActivitySettingsLanguageRepBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding= ActivitySettingsLanguageBinding.inflate(layoutInflater)
+        binding= ActivitySettingsLanguageRepBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.back.setOnClickListener {
-            startActivity(Intent(this, SettingsActivity::class.java))
+            startActivity(Intent(this, SettingsRepActivity::class.java))
             finish()
         }
     }

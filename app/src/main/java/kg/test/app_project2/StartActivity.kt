@@ -19,7 +19,7 @@ class StartActivity : AppCompatActivity() {
         }
 
         binding.repetitor.setOnClickListener {
-            startActivity(Intent(this, LoginActivity::class.java))
+            startActivity(Intent(this, LoginRepActivity::class.java))
             finish()
         }
 
