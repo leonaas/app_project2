@@ -251,5 +251,87 @@
         <item name="android:layout_marginTop">20dp</item>
         <item name="android:text">@string/date4</item>
     </style>
+
+    <style name="linear_language">
+        <item name="android:layout_width">413dp</item>
+        <item name="android:layout_height">71dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="language_button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginStart">100dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="repetitors_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd">70dp</item>
+        <item name="android:text">@string/repetitors</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="people_const">
+        <item name="android:layout_width">406dp</item>
+        <item name="android:layout_height">81dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="james_image">
+        <item name="android:layout_width">74dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:src">@drawable/james</item>
+    </style>
+
+    <style name="people_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">11dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="date_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">11dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="line2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="srcCompat">@drawable/line</item>
+    </style>
+
+    <style name="anna_avatar">
+        <item name="android:layout_width">74dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:src">@drawable/anna</item>
+    </style>
+
+    <style name="sam_avatar">
+        <item name="android:layout_width">74dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:src">@drawable/sam</item>
+    </style>
+
+    <style name="add_button_rep">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/add</item>
+    </style>
     
 </resources>
