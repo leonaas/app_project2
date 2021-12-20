@@ -46,45 +46,15 @@
             android:layout_marginTop="250dp">
 
             <ImageView
-                style="@style/line"
-                android:id="@+id/line" />
+                style="@style/line2"
+                android:layout_gravity="center"
+                android:id="@+id/line2" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                style="@style/const_lay">
-
-                <Button
-                    android:id="@+id/profile"
-                    style="@style/profile_button"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/search"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/message"
-                    style="@style/message_button"
-                    app:layout_constraintStart_toEndOf="@+id/profile"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/search"
-                    style="@style/search_button"
-                    app:layout_constraintStart_toEndOf="@+id/home"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/home"
-                    style="@style/home_button"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/settings"
-                    style="@style/settings_button"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/message"
-                    app:layout_constraintTop_toTopOf="parent" />>
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:menu="@menu/menu"
+                android:background="#00FFFFFF"/>
 
         </LinearLayout>
 

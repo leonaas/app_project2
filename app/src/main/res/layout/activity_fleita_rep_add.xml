@@ -152,45 +152,16 @@
             android:layout_marginTop="125dp">
 
             <ImageView
-                style="@style/line"
+                style="@style/line2"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
                 android:id="@+id/line" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                style="@style/const_lay">
-
-                <Button
-                    style="@style/profile_button"
-                    android:id="@+id/profile"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/search"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    style="@style/message_button"
-                    android:id="@+id/message"
-                    app:layout_constraintStart_toEndOf="@+id/profile"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    style="@style/search_button"
-                    android:id="@+id/search"
-                    app:layout_constraintStart_toEndOf="@+id/home"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    style="@style/home_button"
-                    android:id="@+id/home"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    style="@style/settings_button"
-                    android:id="@+id/settings"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/message"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:menu="@menu/menu"
+                android:background="#00FFFFFF"/>
 
         </LinearLayout>
 

@@ -7,8 +7,8 @@
     tools:context=".MessageRepActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,171 +25,23 @@
             android:textColor="@color/black"
             android:textSize="20sp" />
 
-        <LinearLayout
-            android:id="@+id/user"
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/avatar"
-                android:layout_width="78dp"
-                android:layout_height="78dp"
-                android:layout_marginStart="20dp"
-                android:src="@drawable/avatar" />
-
-            <TextView
-                android:id="@+id/name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="30dp"
-                android:text="@string/leona_name"
-                android:textColor="@color/black"
-                android:textSize="15sp" />
-        </LinearLayout>
-
-
-        <ImageView
-            android:id="@+id/line1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
-            app:srcCompat="@drawable/line" />
-
-        <LinearLayout
-            android:id="@+id/sam_user"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/sam_avatar"
-                android:layout_width="78dp"
-                android:layout_height="78dp"
-                android:layout_marginStart="20dp"
-                app:srcCompat="@drawable/sam" />
-
-            <TextView
-                android:id="@+id/sam_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="30dp"
-                android:text="@string/alina_name"
-                android:textColor="@color/black"
-                android:textSize="15sp" />
-        </LinearLayout>
-
-        <ImageView
-            android:id="@+id/line2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
-            app:srcCompat="@drawable/line" />
-
-        <LinearLayout
-            android:id="@+id/alex_user"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/alex_avatar"
-                android:layout_width="78dp"
-                android:layout_height="78dp"
-                android:layout_marginStart="20dp"
-                app:srcCompat="@drawable/alex" />
-
-            <TextView
-                android:id="@+id/danil"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="30dp"
-                android:text="@string/danil_name"
-                android:textColor="@color/black"
-                android:textSize="15sp" />
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginTop="290dp"
-            android:orientation="vertical">
+            android:layout_height="620dp"
+            tools:listitem="@layout/custom_list_students"/>
 
             <ImageView
                 android:id="@+id/line"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
                 app:srcCompat="@drawable/line" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="409dp"
-                android:layout_height="52dp">
-
-                <Button
-                    android:id="@+id/profile"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="43dp"
-                    android:layout_marginBottom="7dp"
-                    android:background="@drawable/profile"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/search"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/message"
-                    android:layout_width="29dp"
-                    android:layout_height="28dp"
-                    android:layout_marginStart="41dp"
-                    android:layout_marginTop="5dp"
-                    android:background="@drawable/message"
-                    app:layout_constraintStart_toEndOf="@+id/profile"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/search"
-                    android:layout_width="31dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="30dp"
-                    android:layout_marginTop="8dp"
-                    android:background="@drawable/search"
-                    app:layout_constraintStart_toEndOf="@+id/home"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/home"
-                    android:layout_width="45dp"
-                    android:layout_height="51dp"
-                    android:layout_marginStart="13dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/home"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/settings"
-                    android:layout_width="32dp"
-                    android:layout_height="33dp"
-                    android:layout_marginStart="42dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginEnd="28dp"
-                    android:background="@drawable/settings"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/message"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:menu="@menu/menu"
+                android:background="#00FFFFFF"/>
 
         </LinearLayout>
-
-    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
