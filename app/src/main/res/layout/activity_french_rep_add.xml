@@ -7,298 +7,186 @@
     tools:context=".FrenchRepAddActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
+        style="@style/linear1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="413dp"
-            android:layout_height="71dp"
-            android:orientation="horizontal">
+            style="@style/linear_language">
 
             <Button
-                android:id="@+id/back"
-                android:layout_width="36dp"
-                android:layout_height="39dp"
-                android:layout_marginTop="15dp"
-                android:background="@drawable/back" />
+                style="@style/back"
+                android:id="@+id/back" />
 
             <ImageView
+                style="@style/language_button"
                 android:id="@+id/french"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="100dp"
-                android:layout_marginTop="10dp"
                 app:srcCompat="@drawable/french" />
         </LinearLayout>
 
         <TextView
-            android:id="@+id/repetitors"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="70dp"
-            android:text="@string/repetitors"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            style="@style/repetitors_text"
+            android:id="@+id/repetitors" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraint_james"
-            android:layout_width="406dp"
-            android:layout_height="81dp"
-            android:layout_marginTop="20dp">
+            style="@style/people_const"
+            android:id="@+id/constraint_james">
 
             <ImageView
+                style="@style/james_image"
                 android:id="@+id/imageView"
-                android:layout_width="74dp"
-                android:layout_height="72dp"
-                android:layout_marginStart="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/james" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                style="@style/people_text"
                 android:id="@+id/james"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="11dp"
-                android:layout_marginTop="7dp"
                 android:text="@string/james"
-                android:textColor="@color/black"
-                android:textSize="15sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                style="@style/date_text"
                 android:id="@+id/date"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="11dp"
-                android:layout_marginBottom="10dp"
                 android:text="@string/date1"
-                android:textColor="@color/black"
-                android:textSize="13sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            app:srcCompat="@drawable/line" />
+            style="@style/line2"
+            android:id="@+id/imageView2" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraint_anna"
-            android:layout_width="406dp"
-            android:layout_height="81dp"
-            android:layout_marginTop="10dp">
+            style="@style/people_const"
+            android:id="@+id/constraint_anna">
 
             <ImageView
+                style="@style/anna_avatar"
                 android:id="@+id/anna"
-                android:layout_width="74dp"
-                android:layout_height="72dp"
-                android:layout_marginStart="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/anna" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                style="@style/people_text"
                 android:id="@+id/anna_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="11dp"
-                android:layout_marginTop="7dp"
                 android:text="@string/anna_name"
-                android:textColor="@color/black"
-                android:textSize="15sp"
                 app:layout_constraintStart_toEndOf="@+id/anna"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                style="@style/date_text"
                 android:id="@+id/date2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="11dp"
-                android:layout_marginBottom="10dp"
                 android:text="@string/date2"
-                android:textColor="@color/black"
-                android:textSize="13sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/anna" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            app:srcCompat="@drawable/line" />
+            style="@style/line2"
+            android:id="@+id/imageView3" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraint_sam"
-            android:layout_width="406dp"
-            android:layout_height="81dp"
-            android:layout_marginTop="10dp">
+            style="@style/people_const"
+            android:id="@+id/constraint_sam">
 
             <ImageView
+                style="@style/sam_avatar"
                 android:id="@+id/sam"
-                android:layout_width="74dp"
-                android:layout_height="72dp"
-                android:layout_marginStart="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/sam" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                style="@style/people_text"
                 android:id="@+id/sam_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="11dp"
-                android:layout_marginTop="7dp"
                 android:text="@string/sam"
-                android:textColor="@color/black"
-                android:textSize="15sp"
                 app:layout_constraintStart_toEndOf="@+id/sam"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                style="@style/date_text"
                 android:id="@+id/date3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="11dp"
-                android:layout_marginBottom="10dp"
                 android:text="@string/date3"
-                android:textColor="@color/black"
-                android:textSize="13sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/sam" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <ImageView
-            android:id="@+id/line3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            app:srcCompat="@drawable/line" />
+            style="@style/line2"
+            android:id="@+id/line3" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraint_john"
-            android:layout_width="406dp"
-            android:layout_height="81dp"
-            android:layout_marginTop="10dp">
+            style="@style/people_const"
+            android:id="@+id/constraint_john">
 
             <ImageView
+                style="@style/james_image"
                 android:id="@+id/john"
-                android:layout_width="74dp"
-                android:layout_height="72dp"
-                android:layout_marginStart="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/john" />
 
             <TextView
+                style="@style/people_text"
                 android:id="@+id/john_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="11dp"
-                android:layout_marginTop="7dp"
                 android:text="@string/john"
-                android:textColor="@color/black"
-                android:textSize="15sp"
                 app:layout_constraintStart_toEndOf="@+id/john"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                style="@style/date_text"
                 android:id="@+id/date4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="11dp"
-                android:layout_marginBottom="10dp"
                 android:text="@string/date4"
-                android:textColor="@color/black"
-                android:textSize="13sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/john" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="125dp"
-            android:orientation="vertical">
+            style="@style/linear_layout"
+            android:layout_marginTop="125dp">
 
             <ImageView
                 android:id="@+id/line"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                app:srcCompat="@drawable/line" />
+                style="@style/line" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="409dp"
-                android:layout_height="52dp">
+                style="@style/const_lay">
 
                 <Button
+                    style="@style/profile_button"
                     android:id="@+id/profile"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="43dp"
-                    android:layout_marginBottom="7dp"
-                    android:background="@drawable/profile"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/search"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
+                    style="@style/message_button"
                     android:id="@+id/message"
-                    android:layout_width="29dp"
-                    android:layout_height="28dp"
-                    android:layout_marginStart="41dp"
-                    android:layout_marginTop="5dp"
-                    android:background="@drawable/message"
                     app:layout_constraintStart_toEndOf="@+id/profile"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
+                    style="@style/search_button"
                     android:id="@+id/search"
-                    android:layout_width="31dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="30dp"
-                    android:layout_marginTop="8dp"
-                    android:background="@drawable/search"
                     app:layout_constraintStart_toEndOf="@+id/home"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
+                    style="@style/home_button"
                     android:id="@+id/home"
-                    android:layout_width="45dp"
-                    android:layout_height="51dp"
-                    android:layout_marginStart="13dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/home"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
+                    style="@style/settings_button"
                     android:id="@+id/settings"
-                    android:layout_width="32dp"
-                    android:layout_height="33dp"
-                    android:layout_marginStart="42dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginEnd="28dp"
-                    android:background="@drawable/settings"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/message"
                     app:layout_constraintTop_toTopOf="parent" />
